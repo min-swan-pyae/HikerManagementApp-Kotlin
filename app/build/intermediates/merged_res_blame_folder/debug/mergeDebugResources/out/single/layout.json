@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/bottomsheet_advanced_search_sheet.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/bottomsheet_advanced_search_sheet.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_hike_confirm.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_hike_confirm.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/activity_main.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_hike_list.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_hike_list.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_observation_form.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_observation_form.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/item_hike.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/item_hike.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_map_picker.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_map_picker.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_hike_detail.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_hike_detail.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/item_observation.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/item_observation.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_hike_form.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_hike_form.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/fragment_observation_confirm.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/fragment_observation_confirm.xml"
+    },
+    {
+        "merged": "com.example.hikermanagementapp-mergeDebugResources-61:/layout/item_hike_tags.xml",
+        "source": "com.example.hikermanagementapp-main-64:/layout/item_hike_tags.xml"
+    }
+]

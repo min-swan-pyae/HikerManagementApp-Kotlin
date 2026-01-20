@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/hikeListFragment">
+
+    <fragment
+        android:id="@+id/hikeListFragment"
+        android:name="com.example.hikermanagementapp.ui.hike.HikeListFragment"
+        android:label="Hikes">
+        <action
+            android:id="@+id/action_hikeList_to_hikeForm"
+            app:destination="@id/hikeFormFragment" />
+        <action
+            android:id="@+id/action_hikeList_to_hikeDetail"
+            app:destination="@id/hikeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/hikeFormFragment"
+        android:name="com.example.hikermanagementapp.ui.hike.HikeFormFragment"
+        android:label="New Hike">
+        <action
+            android:id="@+id/action_hikeForm_to_hikeConfirm"
+            app:destination="@id/hikeConfirmFragment" />
+        <action
+            android:id="@+id/action_hikeForm_to_mapPicker"
+            app:destination="@id/mapPickerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/hikeConfirmFragment"
+        android:name="com.example.hikermanagementapp.ui.hike.HikeConfirmFragment"
+        android:label="Confirm Hike">
+        <argument
+            android:name="draft"
+            app:argType="com.example.hikermanagementapp.ui.hike.HikeDraft" />
+        <action
+            android:id="@+id/action_hikeConfirm_to_hikeList"
+            app:destination="@id/hikeListFragment"
+            app:popUpTo="@id/hikeListFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_hikeConfirm_to_hikeForm"
+            app:destination="@id/hikeFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/hikeDetailFragment"
+        android:name="com.example.hikermanagementapp.ui.hike.HikeDetailFragment"
+        android:label="Hike Details">
+        <argument
+            android:name="hikeId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_hikeDetail_to_observationForm"
+            app:destination="@id/observationFormFragment" />
+        <action
+            android:id="@+id/action_hikeDetail_to_hikeForm"
+            app:destination="@id/hikeFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/observationFormFragment"
+        android:name="com.example.hikermanagementapp.ui.observation.ObservationFormFragment"
+        android:label="Add Observation">
+        <argument android:name="hikeId" app:argType="long" />
+        <action
+            android:id="@+id/action_observationForm_to_observationConfirm"
+            app:destination="@id/observationConfirmFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/observationConfirmFragment"
+        android:name="com.example.hikermanagementapp.ui.observation.ObservationConfirmFragment"
+        android:label="Confirm Observation">
+        <action
+            android:id="@+id/action_observationConfirm_to_observationForm"
+            app:destination="@id/observationFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapPickerFragment"
+        android:name="com.example.hikermanagementapp.ui.hike.MapPickerFragment"
+        android:label="Pick Location"
+        tools:layout="@layout/fragment_map_picker" />
+</navigation>

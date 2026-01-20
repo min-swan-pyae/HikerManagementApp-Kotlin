@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_to_calendar"
+        android:title="Add to Calendar"
+        android:contentDescription="Add hike to calendar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_export_json"
+        android:title="Export JSON"
+        android:contentDescription="Export hike as JSON"
+        app:showAsAction="never" />
+</menu>
+

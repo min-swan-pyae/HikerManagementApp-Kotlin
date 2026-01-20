@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">HikerManagementApp</string>
+
+    <!-- Attribute chips (visible text) -->
+    <string name="chip_parking_available">Aparcamiento: Disponible</string>
+    <string name="chip_parking_unavailable">Aparcamiento: No disponible</string>
+    <string name="chip_elevation_gain">Desnivel: %1$d m</string>
+    <string name="chip_rating">&#9733;%1$s</string>
+    <string name="chip_length_int">%1$d km</string>
+    <string name="chip_length_float">%1$.1f km</string>
+    <string name="chip_difficulty">Dificultad: %1$s</string>
+
+    <!-- Values -->
+    <string name="value_available">Disponible</string>
+    <string name="value_unavailable">No disponible</string>
+    <string name="value_meters">%1$d m</string>
+
+    <!-- Accessibility content descriptions (speakable) -->
+    <string name="cd_parking_available">Aparcamiento: Disponible</string>
+    <string name="cd_parking_unavailable">Aparcamiento: No disponible</string>
+    <string name="cd_elevation_gain">Desnivel %1$d metros</string>
+    <string name="cd_rating">Valoración %1$s estrellas</string>
+    <string name="cd_length_int">Longitud %1$d kilómetros</string>
+    <string name="cd_length_float">Longitud %1$.1f kilómetros</string>
+    <string name="cd_difficulty">Dificultad %1$s</string>
+    <string name="cd_location">Ubicación %1$s</string>
+    <string name="cd_date">Fecha %1$s</string>
+    <string name="cd_add_observation">Añadir observación</string>
+
+    <!-- Plurals for accessibility content descriptions -->
+    <plurals name="cd_elevation_gain_meters">
+        <item quantity="one">Desnivel %1$d metro</item>
+        <item quantity="other">Desnivel %1$d metros</item>
+    </plurals>
+    <plurals name="cd_length_kilometers">
+        <item quantity="one">Longitud %1$d kilómetro</item>
+        <item quantity="other">Longitud %1$d kilómetros</item>
+    </plurals>
+
+    <!-- Detail headers and empty states -->
+    <string name="details_observations_header">Observaciones</string>
+    <string name="details_no_observations">Aún no hay observaciones</string>
+
+    <!-- Common actions -->
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Map and Location strings -->
+    <string name="map_location_selected">Seleccionado: %1$s, %2$s</string>
+    <string name="map_found_location">¡Ubicación encontrada!</string>
+    <string name="map_unable_location">No se puede obtener la ubicación actual</string>
+    <string name="map_location_unavailable">Ubicación no disponible</string>
+    <string name="map_permission_required">Se requiere permiso de ubicación</string>
+    <string name="map_tap_to_select">Toque el mapa para seleccionar ubicación</string>
+    <string name="map_select_first">Seleccione una ubicación primero</string>
+    <string name="map_location_format">Ubicación: %1$s, %2$s</string>
+    <string name="current_location_loading">Obteniendo ubicación actual…</string>
+    <string name="could_not_get_location">No se pudo obtener la ubicación</string>
+
+    <!-- Date format strings -->
+    <string name="date_format">%1$d-%2$02d-%3$02d</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_observation_title">¿Eliminar observación?</string>
+    <string name="dialog_delete_observation_message">Esto no se puede deshacer.</string>
+
+    <!-- Toasts -->
+    <string name="toast_observation_deleted">Observación eliminada</string>
+    <string name="toast_hike_saved">Excursión guardada</string>
+    <string name="toast_hike_updated">Excursión actualizada</string>
+    <string name="toast_already_in_calendar">Esta excursión ya está en tu calendario</string>
+    <string name="toast_event_launched">Abriendo tu calendario…</string>
+    <string name="toast_import_success">Excursión importada</string>
+    <string name="toast_observation_saved">Observación guardada</string>
+    <string name="toast_observation_updated">Observación actualizada</string>
+    <string name="toast_camera_permission_denied">Permiso de cámara denegado</string>
+    <string name="toast_photo_permission_denied">Permiso de acceso a fotos denegado</string>
+    <string name="toast_observation_required">La observación es obligatoria</string>
+    <string name="toast_error_camera">Error al abrir la cámara: %1$s</string>
+    <string name="toast_enter_location_search">Por favor, introduzca una ubicación para buscar</string>
+    <string name="toast_geocoder_unavailable">Geocodificador no disponible</string>
+    <string name="toast_searching">Buscando…</string>
+    <string name="toast_location_found">Ubicación encontrada</string>
+    <string name="toast_location_not_found">Ubicación no encontrada</string>
+    <string name="toast_error_searching">Error al buscar ubicación</string>
+    <string name="toast_hike_deleted">Eliminada</string>
+    <string name="toast_database_reset">Base de datos reiniciada</string>
+    <string name="toast_nothing_to_import">Nada que importar</string>
+    <string name="toast_unable_to_open_picker">No se puede abrir el selector: %1$s</string>
+    <string name="toast_failed_to_read_file">Error al leer el archivo</string>
+    <string name="toast_import_failed">Error al importar: %1$s</string>
+    <string name="toast_invalid_json">JSON no válido: %1$s</string>
+    <string name="toast_permission_denied">Permiso denegado</string>
+    <string name="toast_location_permission_denied">Permiso de ubicación denegado</string>
+    <string name="toast_location_unavailable">Ubicación no disponible</string>
+    <string name="toast_fill_required_fields">Por favor, complete todos los campos obligatorios</string>
+    <string name="toast_valid_length">Por favor, introduzca una longitud válida</string>
+    <string name="toast_import_duplicate">¡Error al importar! Ya tienes esta excursión</string>
+    <string name="toast_location_updated">Ubicación actualizada: %1$s</string>
+    <string name="toast_filters_applied">%1$d excursión(es) encontrada(s)</string>
+    <string name="toast_length_max_exceeded">La longitud debe ser inferior a 1000 km</string>
+
+    <!-- Confirm summary labels -->
+    <string name="label_name">Nombre</string>
+    <string name="label_location">Ubicación</string>
+    <string name="label_date">Fecha</string>
+    <string name="label_parking">Aparcamiento</string>
+    <string name="label_length">Longitud</string>
+    <string name="label_difficulty">Dificultad</string>
+    <string name="label_description">Descripción</string>
+    <string name="label_elevation_gain">Desnivel</string>
+    <string name="label_rating">Valoración</string>
+
+    <!-- Advanced Search bottom sheet -->
+    <string name="filter_name_contains">El nombre contiene</string>
+    <string name="filter_location_contains">La ubicación contiene</string>
+    <string name="filter_length_km">Longitud (km)</string>
+    <string name="filter_date_hint">Fecha (AAAA-MM-DD)</string>
+    <string name="filter_difficulty">Dificultad</string>
+    <string name="filter_any">Cualquiera</string>
+    <string name="filter_easy">Fácil</string>
+    <string name="filter_moderate">Moderada</string>
+    <string name="filter_hard">Difícil</string>
+    <string name="filter_parking">Aparcamiento</string>
+    <string name="filter_yes">Sí</string>
+    <string name="filter_no">No</string>
+    <string name="filter_sort_by">Ordenar por</string>
+    <string name="filter_sort_date">Fecha</string>
+    <string name="filter_sort_name">Nombre</string>
+    <string name="filter_sort_length">Longitud</string>
+    <string name="action_clear">Limpiar</string>
+    <string name="action_apply">Aplicar</string>
+
+    <!-- Menu labels -->
+    <string name="menu_add_to_calendar">Añadir al Calendario</string>
+    <string name="menu_added_to_calendar">Añadido al Calendario</string>
+    <string name="menu_export_json">Exportar JSON</string>
+    <string name="menu_import_json">Importar JSON</string>
+    <string name="menu_import_json_paste">Importar JSON (Pegar)</string>
+
+    <!-- Import dialog -->
+    <string name="dialog_import_title">Pegar JSON</string>
+    <string name="dialog_import_message">Pegue un JSON de excursión exportado desde esta aplicación.</string>
+    <string name="dialog_import_hint">{\n  \"name\": \"Snowdon\",\n  \"location\": \"…\",\n  ...\n}</string>
+
+    <!-- App Title -->
+    <string name="app_title">M-Hike</string>
+
+    <!-- Dialog titles and messages -->
+    <string name="dialog_add_photo_title">Añadir foto</string>
+    <string name="dialog_take_photo">Tomar foto</string>
+    <string name="dialog_choose_gallery">Elegir de la galería</string>
+    <string name="dialog_delete_hike_title">¿Eliminar excursión?</string>
+    <string name="dialog_delete_hike_message">Esto eliminará la excursión y todas sus observaciones.</string>
+    <string name="dialog_reset_db_title">¿Reiniciar base de datos?</string>
+    <string name="dialog_reset_db_message">Esto eliminará permanentemente todas las excursiones y observaciones.</string>
+    <string name="action_reset">Reiniciar</string>
+
+    <!-- Form errors -->
+    <string name="error_required">Obligatorio</string>
+
+    <!-- Observation confirm labels -->
+    <string name="label_observation">Observación</string>
+    <string name="label_date_time">Fecha y hora</string>
+    <string name="label_comments">Comentarios</string>
+
+    <!-- Notification -->
+    <string name="notification_hike_reminder_title">Recordatorio de excursión</string>
+    <string name="notification_hike_reminder_default">Tu excursión</string>
+    <string name="notification_channel_name">Recordatorios de excursiones</string>
+    <string name="notification_channel_description">Recordatorios para próximas excursiones</string>
+
+    <!-- Back confirmation dialog -->
+    <string name="dialog_unsaved_changes_title">Cambios sin guardar</string>
+    <string name="dialog_unsaved_changes_message">¿Desea continuar editando o descartar sus cambios?</string>
+    <string name="btn_continue_editing">Continuar editando</string>
+    <string name="btn_discard">Descartar</string>
+    <string name="btn_cancel">Cancelar</string>
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_levels">
+        <item>Easy</item>
+        <item>Moderate</item>
+        <item>Hard</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="dark_background">#1C1B1F</color>
+    <color name="dark_error">#EF5350</color>
+    <color name="dark_error_container">#C62828</color>
+    <color name="dark_on_background">#E6E1E5</color>
+    <color name="dark_on_error">#5F0000</color>
+    <color name="dark_on_error_container">#FFCDD2</color>
+    <color name="dark_on_primary">#003300</color>
+    <color name="dark_on_primary_container">#C8E6C9</color>
+    <color name="dark_on_secondary">#1B5E20</color>
+    <color name="dark_on_secondary_container">#E8F5E9</color>
+    <color name="dark_on_surface">#E6E1E5</color>
+    <color name="dark_on_surface_variant">#CAC4D0</color>
+    <color name="dark_on_tertiary">#003333</color>
+    <color name="dark_on_tertiary_container">#B2DFDB</color>
+    <color name="dark_primary">#81C784</color>
+    <color name="dark_primary_container">#1B5E20</color>
+    <color name="dark_secondary">#A5D6A7</color>
+    <color name="dark_secondary_container">#2E7D32</color>
+    <color name="dark_surface">#2C2C2E</color>
+    <color name="dark_surface_variant">#3C3C3E</color>
+    <color name="dark_tertiary">#4DB6AC</color>
+    <color name="dark_tertiary_container">#00695C</color>
+    <color name="ic_launcher_background">#3DDC84</color>
+    <color name="light_background">#F5F5F5</color>
+    <color name="light_error">#D32F2F</color>
+    <color name="light_error_container">#FFCDD2</color>
+    <color name="light_on_background">#1C1B1F</color>
+    <color name="light_on_error">#FFFFFF</color>
+    <color name="light_on_error_container">#B71C1C</color>
+    <color name="light_on_primary">#FFFFFF</color>
+    <color name="light_on_primary_container">#1B5E20</color>
+    <color name="light_on_secondary">#FFFFFF</color>
+    <color name="light_on_secondary_container">#2E7D32</color>
+    <color name="light_on_surface">#1C1B1F</color>
+    <color name="light_on_surface_variant">#424242</color>
+    <color name="light_on_tertiary">#FFFFFF</color>
+    <color name="light_on_tertiary_container">#004D40</color>
+    <color name="light_primary">#2E7D32</color>
+    <color name="light_primary_container">#A5D6A7</color>
+    <color name="light_secondary">#4CAF50</color>
+    <color name="light_secondary_container">#C8E6C9</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_surface_variant">#E0E0E0</color>
+    <color name="light_tertiary">#00796B</color>
+    <color name="light_tertiary_container">#B2DFDB</color>
+    <color name="white">#FFFFFFFF</color>
+    <plurals name="cd_elevation_gain_meters">
+        <item quantity="one">Elevation gain %1$d meter</item>
+        <item quantity="other">Elevation gain %1$d meters</item>
+    </plurals>
+    <plurals name="cd_length_kilometers">
+        <item quantity="one">Length %1$d kilometer</item>
+        <item quantity="other">Length %1$d kilometers</item>
+    </plurals>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_reset">Reset</string>
+    <string name="app_name">HikerManagementApp</string>
+    <string name="app_title">M-Hike</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_continue_editing">Continue Editing</string>
+    <string name="btn_discard">Discard</string>
+    <string name="cd_add_observation">Add observation</string>
+    <string name="cd_date">Date %1$s</string>
+    <string name="cd_difficulty">Difficulty %1$s</string>
+    <string name="cd_elevation_gain">Elevation gain %1$d meters</string>
+    <string name="cd_hike_map_preview" translatable="false">Map preview of hike location</string>
+    <string name="cd_hike_photo" translatable="false">Hike photo for %1$s</string>
+    <string name="cd_length_float">Length %1$.1f kilometers</string>
+    <string name="cd_length_int">Length %1$d kilometers</string>
+    <string name="cd_location">Location %1$s</string>
+    <string name="cd_observation_photo" translatable="false">Observation photo</string>
+    <string name="cd_parking_available">Parking: Available</string>
+    <string name="cd_parking_unavailable">Parking: Unavailable</string>
+    <string name="cd_rating">Rating %1$s stars</string>
+    <string name="chip_difficulty">Difficulty: %1$s</string>
+    <string name="chip_elevation_gain">Elevation gain: %1$d m</string>
+    <string name="chip_length_float">%1$.1f km</string>
+    <string name="chip_length_int">%1$d km</string>
+    <string name="chip_parking_available">Parking: Available</string>
+    <string name="chip_parking_unavailable">Parking: Unavailable</string>
+    <string name="chip_rating">★%1$s</string>
+    <string name="could_not_get_location">Could not get location</string>
+    <string name="current_location_loading">Loading location details…</string>
+    <string name="date_format">%1$d-%2$02d-%3$02d</string>
+    <string name="details_no_observations">No observations yet</string>
+    <string name="details_observations_header">Observations</string>
+    <string name="dialog_add_photo_title">Add Photo</string>
+    <string name="dialog_choose_gallery">Choose from Gallery</string>
+    <string name="dialog_delete_hike_message">This will delete the hike and all its observations.</string>
+    <string name="dialog_delete_hike_title">Delete hike?</string>
+    <string name="dialog_delete_observation_message">This cannot be undone.</string>
+    <string name="dialog_delete_observation_title">Delete observation?</string>
+    <string name="dialog_import_hint">{\n  \"name\": \"Snowdon\",\n  \"location\": \"...\",\n  ...\n}</string>
+    <string name="dialog_import_message">Paste a hike JSON exported from this app.</string>
+    <string name="dialog_import_title">Paste JSON</string>
+    <string name="dialog_reset_db_message">This will permanently delete all hikes and observations.</string>
+    <string name="dialog_reset_db_title">Reset database?</string>
+    <string name="dialog_take_photo">Take Photo</string>
+    <string name="dialog_unsaved_changes_message">Do you want to continue editing or discard your changes?</string>
+    <string name="dialog_unsaved_changes_title">Unsaved Changes</string>
+    <string name="error_invalid_date" translatable="false">Invalid date</string>
+    <string name="error_required">Required</string>
+    <string name="filter_any">Any</string>
+    <string name="filter_date_hint">Date (YYYY-MM-DD)</string>
+    <string name="filter_difficulty">Difficulty</string>
+    <string name="filter_easy">Easy</string>
+    <string name="filter_hard">Hard</string>
+    <string name="filter_length_km">Length (km)</string>
+    <string name="filter_location_contains">Location contains</string>
+    <string name="filter_moderate">Moderate</string>
+    <string name="filter_name_contains">Name contains</string>
+    <string name="filter_no">No</string>
+    <string name="filter_parking">Parking</string>
+    <string name="filter_sort_by">Sort by</string>
+    <string name="filter_sort_date">Date</string>
+    <string name="filter_sort_length">Length</string>
+    <string name="filter_sort_name">Name</string>
+    <string name="filter_yes">Yes</string>
+    <string name="label_comments">Comments</string>
+    <string name="label_date">Date</string>
+    <string name="label_date_time">Date &amp; Time</string>
+    <string name="label_description">Description</string>
+    <string name="label_difficulty">Difficulty</string>
+    <string name="label_elevation_gain">Elevation gain</string>
+    <string name="label_length">Length</string>
+    <string name="label_location">Location</string>
+    <string name="label_name">Name</string>
+    <string name="label_observation">Observation</string>
+    <string name="label_parking">Parking</string>
+    <string name="label_rating">Rating</string>
+    <string name="location_date_combined" translatable="false">%1$s • %2$s</string>
+    <string name="map_found_location">Found your location</string>
+    <string name="map_location_format">Location: %1$s, %2$s</string>
+    <string name="map_location_selected">Location selected: %1$s, %2$s</string>
+    <string name="map_location_unavailable">Location service unavailable</string>
+    <string name="map_permission_required">Location permission required</string>
+    <string name="map_select_first">Please select a location first</string>
+    <string name="map_tap_to_select">Tap on the map to select a location</string>
+    <string name="map_unable_location">Unable to get current location</string>
+    <string name="menu_add_to_calendar">Add to Calendar</string>
+    <string name="menu_added_to_calendar">Added to Calendar</string>
+    <string name="menu_export_json">Export JSON</string>
+    <string name="menu_import_json">Import JSON</string>
+    <string name="menu_import_json_paste">Import JSON (Paste)</string>
+    <string name="notification_channel_description">Reminders for upcoming hikes</string>
+    <string name="notification_channel_name">Hike Reminders</string>
+    <string name="notification_hike_reminder_default">Your hike</string>
+    <string name="notification_hike_reminder_title">Hike reminder</string>
+    <string name="share_hike_subject" translatable="false">Hike: %1$s</string>
+    <string name="share_hike_title" translatable="false">Share hike</string>
+    <string name="toast_already_in_calendar">This hike is already in your calendar</string>
+    <string name="toast_camera_permission_denied">Camera permission denied</string>
+    <string name="toast_database_reset">Database reset</string>
+    <string name="toast_enter_location_search">Please enter a location to search</string>
+    <string name="toast_error_camera">Error launching camera: %1$s</string>
+    <string name="toast_error_searching">Error searching location</string>
+    <string name="toast_event_launched">Opening your calendar…</string>
+    <string name="toast_failed_to_read_file">Failed to read file</string>
+    <string name="toast_fill_required_fields">Please fill all required fields</string>
+    <string name="toast_filters_applied">Found %1$d hike(s)</string>
+    <string name="toast_geocoder_unavailable">Geocoder not available</string>
+    <string name="toast_hike_deleted">Deleted</string>
+    <string name="toast_hike_saved">Hike saved</string>
+    <string name="toast_hike_updated">Hike updated</string>
+    <string name="toast_import_duplicate">Import failed! You already have this hike</string>
+    <string name="toast_import_failed">Import failed: %1$s</string>
+    <string name="toast_import_success">Hike imported</string>
+    <string name="toast_invalid_json">Invalid JSON: %1$s</string>
+    <string name="toast_length_max_exceeded">Length must be less than 1000 km</string>
+    <string name="toast_location_found">Location found</string>
+    <string name="toast_location_not_found">Location not found</string>
+    <string name="toast_location_permission_denied">Location permission denied</string>
+    <string name="toast_location_unavailable">Location unavailable</string>
+    <string name="toast_location_updated">Location updated: %1$s</string>
+    <string name="toast_nothing_to_import">Nothing to import</string>
+    <string name="toast_observation_deleted">Observation deleted</string>
+    <string name="toast_observation_required">Observation is required</string>
+    <string name="toast_observation_saved">Observation saved</string>
+    <string name="toast_observation_updated">Observation updated</string>
+    <string name="toast_permission_denied">Permission denied</string>
+    <string name="toast_photo_permission_denied">Photo access permission denied</string>
+    <string name="toast_searching">Searching…</string>
+    <string name="toast_unable_to_open_picker">Unable to open picker: %1$s</string>
+    <string name="toast_valid_length">Please enter a valid length</string>
+    <string name="value_available">Available</string>
+    <string name="value_meters">%1$d m</string>
+    <string name="value_unavailable">Unavailable</string>
+    <style name="Base.Theme.HikerManagementApp" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="colorPrimaryContainer">@color/light_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/light_on_primary_container</item>
+
+        
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="colorOnSecondary">@color/light_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/light_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/light_on_secondary_container</item>
+
+        
+        <item name="colorTertiary">@color/light_tertiary</item>
+        <item name="colorOnTertiary">@color/light_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/light_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/light_on_tertiary_container</item>
+
+        
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorOnBackground">@color/light_on_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+        <item name="colorSurfaceVariant">@color/light_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/light_on_surface_variant</item>
+
+        
+        <item name="colorError">@color/light_error</item>
+        <item name="colorOnError">@color/light_on_error</item>
+        <item name="colorErrorContainer">@color/light_error_container</item>
+        <item name="colorOnErrorContainer">@color/light_on_error_container</item>
+
+        
+        <item name="android:statusBarColor">@color/light_primary</item>
+        
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Chip.Attribute" parent="Widget.Material3.Chip.Assist.Elevated">
+        <item name="android:textSize">12sp</item>
+        <item name="chipIconVisible">false</item>
+        <item name="ensureMinTouchTargetSize">true</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="HikeAttributeChip" parent="Chip.Attribute"/>
+    <style name="Theme.HikerManagementApp" parent="Base.Theme.HikerManagementApp"/>
+</resources>

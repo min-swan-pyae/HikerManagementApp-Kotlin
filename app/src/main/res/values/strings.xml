@@ -1,0 +1,195 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">HikerManagementApp</string>
+
+    <!-- Attribute chips (visible text) -->
+    <string name="chip_parking_available">Parking: Available</string>
+    <string name="chip_parking_unavailable">Parking: Unavailable</string>
+    <string name="chip_elevation_gain">Elevation gain: %1$d m</string>
+    <string name="chip_rating">&#9733;%1$s</string>
+    <string name="chip_length_int">%1$d km</string>
+    <string name="chip_length_float">%1$.1f km</string>
+    <string name="chip_difficulty">Difficulty: %1$s</string>
+
+    <!-- Values -->
+    <string name="value_available">Available</string>
+    <string name="value_unavailable">Unavailable</string>
+    <string name="value_meters">%1$d m</string>
+
+    <!-- Accessibility content descriptions (speakable) -->
+    <string name="cd_parking_available">Parking: Available</string>
+    <string name="cd_parking_unavailable">Parking: Unavailable</string>
+    <string name="cd_elevation_gain">Elevation gain %1$d meters</string>
+    <string name="cd_rating">Rating %1$s stars</string>
+    <string name="cd_length_int">Length %1$d kilometers</string>
+    <string name="cd_length_float">Length %1$.1f kilometers</string>
+    <string name="cd_difficulty">Difficulty %1$s</string>
+    <string name="cd_location">Location %1$s</string>
+    <string name="cd_date">Date %1$s</string>
+    <string name="cd_add_observation">Add observation</string>
+    <string name="cd_hike_photo" translatable="false">Hike photo for %1$s</string>
+    <string name="cd_observation_photo" translatable="false">Observation photo</string>
+    <string name="cd_hike_map_preview" translatable="false">Map preview of hike location</string>
+
+    <!-- Plurals for accessibility content descriptions -->
+    <plurals name="cd_elevation_gain_meters">
+        <item quantity="one">Elevation gain %1$d meter</item>
+        <item quantity="other">Elevation gain %1$d meters</item>
+    </plurals>
+    <plurals name="cd_length_kilometers">
+        <item quantity="one">Length %1$d kilometer</item>
+        <item quantity="other">Length %1$d kilometers</item>
+    </plurals>
+
+    <!-- Detail headers and empty states -->
+    <string name="details_observations_header">Observations</string>
+    <string name="details_no_observations">No observations yet</string>
+
+    <!-- Common actions -->
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Map and Location strings -->
+    <string name="map_location_selected">Location selected: %1$s, %2$s</string>
+    <string name="map_found_location">Found your location</string>
+    <string name="map_unable_location">Unable to get current location</string>
+    <string name="map_location_unavailable">Location service unavailable</string>
+    <string name="map_permission_required">Location permission required</string>
+    <string name="map_tap_to_select">Tap on the map to select a location</string>
+    <string name="map_select_first">Please select a location first</string>
+    <string name="map_location_format">Location: %1$s, %2$s</string>
+    <string name="current_location_loading">Loading location details…</string>
+    <string name="could_not_get_location">Could not get location</string>
+
+    <!-- Format strings for TagHikeAdapter -->
+    <string name="location_date_combined" translatable="false">%1$s • %2$s</string>
+
+    <!-- Date format strings -->
+    <string name="date_format">%1$d-%2$02d-%3$02d</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_observation_title">Delete observation?</string>
+    <string name="dialog_delete_observation_message">This cannot be undone.</string>
+
+    <!-- Toasts -->
+    <string name="toast_observation_deleted">Observation deleted</string>
+    <string name="toast_hike_saved">Hike saved</string>
+    <string name="toast_hike_updated">Hike updated</string>
+    <string name="toast_already_in_calendar">This hike is already in your calendar</string>
+    <string name="toast_event_launched">Opening your calendar…</string>
+    <string name="toast_import_success">Hike imported</string>
+    <string name="toast_observation_saved">Observation saved</string>
+    <string name="toast_observation_updated">Observation updated</string>
+    <string name="toast_camera_permission_denied">Camera permission denied</string>
+    <string name="toast_photo_permission_denied">Photo access permission denied</string>
+    <string name="toast_observation_required">Observation is required</string>
+    <string name="toast_error_camera">Error launching camera: %1$s</string>
+    <string name="toast_enter_location_search">Please enter a location to search</string>
+    <string name="toast_geocoder_unavailable">Geocoder not available</string>
+    <string name="toast_searching">Searching…</string>
+    <string name="toast_location_found">Location found</string>
+    <string name="toast_location_not_found">Location not found</string>
+    <string name="toast_error_searching">Error searching location</string>
+    <string name="toast_hike_deleted">Deleted</string>
+    <string name="toast_database_reset">Database reset</string>
+    <string name="toast_nothing_to_import">Nothing to import</string>
+    <string name="toast_unable_to_open_picker">Unable to open picker: %1$s</string>
+    <string name="toast_failed_to_read_file">Failed to read file</string>
+    <string name="toast_import_failed">Import failed: %1$s</string>
+    <string name="toast_invalid_json">Invalid JSON: %1$s</string>
+    <string name="toast_permission_denied">Permission denied</string>
+    <string name="toast_location_permission_denied">Location permission denied</string>
+    <string name="toast_location_unavailable">Location unavailable</string>
+    <string name="toast_fill_required_fields">Please fill all required fields</string>
+    <string name="toast_valid_length">Please enter a valid length</string>
+    <string name="toast_import_duplicate">Import failed! You already have this hike</string>
+    <string name="toast_location_updated">Location updated: %1$s</string>
+    <string name="toast_filters_applied">Found %1$d hike(s)</string>
+    <string name="toast_length_max_exceeded">Length must be less than 1000 km</string>
+
+    <!-- Confirm summary labels -->
+    <string name="label_name">Name</string>
+    <string name="label_location">Location</string>
+    <string name="label_date">Date</string>
+    <string name="label_parking">Parking</string>
+    <string name="label_length">Length</string>
+    <string name="label_difficulty">Difficulty</string>
+    <string name="label_description">Description</string>
+    <string name="label_elevation_gain">Elevation gain</string>
+    <string name="label_rating">Rating</string>
+
+    <!-- Advanced Search bottom sheet -->
+    <string name="filter_name_contains">Name contains</string>
+    <string name="filter_location_contains">Location contains</string>
+    <string name="filter_length_km">Length (km)</string>
+    <string name="filter_date_hint">Date (YYYY-MM-DD)</string>
+    <string name="filter_difficulty">Difficulty</string>
+    <string name="filter_any">Any</string>
+    <string name="filter_easy">Easy</string>
+    <string name="filter_moderate">Moderate</string>
+    <string name="filter_hard">Hard</string>
+    <string name="filter_parking">Parking</string>
+    <string name="filter_yes">Yes</string>
+    <string name="filter_no">No</string>
+    <string name="filter_sort_by">Sort by</string>
+    <string name="filter_sort_date">Date</string>
+    <string name="filter_sort_name">Name</string>
+    <string name="filter_sort_length">Length</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_apply">Apply</string>
+
+    <!-- Error messages -->
+    <string name="error_invalid_date" translatable="false">Invalid date</string>
+
+    <!-- Sharing -->
+    <string name="share_hike_subject" translatable="false">Hike: %1$s</string>
+    <string name="share_hike_title" translatable="false">Share hike</string>
+
+    <!-- Menu labels -->
+    <string name="menu_add_to_calendar">Add to Calendar</string>
+    <string name="menu_added_to_calendar">Added to Calendar</string>
+    <string name="menu_export_json">Export JSON</string>
+    <string name="menu_import_json">Import JSON</string>
+    <string name="menu_import_json_paste">Import JSON (Paste)</string>
+
+    <!-- Import dialog -->
+    <string name="dialog_import_title">Paste JSON</string>
+    <string name="dialog_import_message">Paste a hike JSON exported from this app.</string>
+    <string name="dialog_import_hint">{\n  \"name\": \"Snowdon\",\n  \"location\": \"...\",\n  ...\n}</string>
+
+    <!-- App Title -->
+    <string name="app_title">M-Hike</string>
+
+
+    <!-- Dialog titles and messages -->
+    <string name="dialog_add_photo_title">Add Photo</string>
+    <string name="dialog_take_photo">Take Photo</string>
+    <string name="dialog_choose_gallery">Choose from Gallery</string>
+    <string name="dialog_delete_hike_title">Delete hike?</string>
+    <string name="dialog_delete_hike_message">This will delete the hike and all its observations.</string>
+    <string name="dialog_reset_db_title">Reset database?</string>
+    <string name="dialog_reset_db_message">This will permanently delete all hikes and observations.</string>
+    <string name="action_reset">Reset</string>
+
+    <!-- Form errors -->
+    <string name="error_required">Required</string>
+
+    <!-- Observation confirm labels -->
+    <string name="label_observation">Observation</string>
+    <string name="label_date_time">Date &amp; Time</string>
+    <string name="label_comments">Comments</string>
+
+    <!-- Notification -->
+    <string name="notification_hike_reminder_title">Hike reminder</string>
+    <string name="notification_hike_reminder_default">Your hike</string>
+    <string name="notification_channel_name">Hike Reminders</string>
+    <string name="notification_channel_description">Reminders for upcoming hikes</string>
+
+    <!-- Back confirmation dialog -->
+    <string name="dialog_unsaved_changes_title">Unsaved Changes</string>
+    <string name="dialog_unsaved_changes_message">Do you want to continue editing or discard your changes?</string>
+    <string name="btn_continue_editing">Continue Editing</string>
+    <string name="btn_discard">Discard</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>

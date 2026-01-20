@@ -1,0 +1,14 @@
+<resources>
+    <!-- Material 3 Assist/Elevated style for attribute chips -->
+    <style name="Chip.Attribute" parent="Widget.Material3.Chip.Assist.Elevated">
+        <item name="android:textSize">12sp</item>
+        <item name="chipIconVisible">false</item>
+        <item name="ensureMinTouchTargetSize">true</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- App-specific style to use in code -->
+    <style name="HikeAttributeChip" parent="Chip.Attribute" />
+</resources>

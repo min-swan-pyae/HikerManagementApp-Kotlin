@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilObservation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Observation">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etObservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date and time"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/ic_calendar">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comments (optional)">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:minLines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="12dp">
+            <ImageView
+                android:id="@+id/ivPhotoObs"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="Observation photo preview"
+                android:src="@drawable/ic_launcher_foreground" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPickPhotoObs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add photo"
+                android:contentDescription="Add observation photo"
+                android:layout_marginStart="12dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnClearPhotoObs"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:contentDescription="Remove observation photo"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSaveObs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Save Observation"
+            android:contentDescription="Save observation" />
+
+    </LinearLayout>
+</ScrollView>
